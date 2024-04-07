@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+ 
+    <style>
+        table, td {
+          padding: 10px;
+        }
+        table {
+          border-spacing: 20px;
+        }
+        
+   
+        </style>
+
+</head>
+<body bgcolor="bisque">
+    <br><br><br><br><br><br><br>
+<h1 style="color:cornflowerblue;" align=center>C O N T A C T</h1>
+    <table align = "center">
+        <tr>
+            <td><img src ="images/iContactImg.jpeg" height="300px"></td>
+            <td>
+                <form action="iSubmitAction.php">
+                    <label for="name"><p style="font-family: Arial, Helvetica, sans-serif;">Name *</p></label>
+                    <input type="text" id="fname" name="fname" value="first name">
+                    <input type="text" id="lname" name="lname" value="last name">
+                    
+                    <label for="email"><p style="font-family: Arial, Helvetica, sans-serif;">E-mail Address *</p></label>
+                    <input type="text" id="email" name="email" >
+            
+                    <label for="subj"><p style="font-family: Arial, Helvetica, sans-serif;">Subject *</p></label>
+                    <input type="text" id="subj" name="fname">
+                    <br>
+                    <label for="msg"><p style="font-family: Arial, Helvetica, sans-serif;">Message *</p></label>
+                    <textarea name="message" rows="5" cols="40">write your message here...</textarea>
+                    <br><br>
+
+<!--<input type="text" id="msg" name="msg"><br><br>-->
+            
+                    <input type="submit" value="Submit">
+                </form>
+                <a href="index.html">BACK TO MAIN</a>
+            </td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
